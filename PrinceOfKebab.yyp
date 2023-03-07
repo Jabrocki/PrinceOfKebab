@@ -26,6 +26,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Scripts/Player.yy","order":0,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PlayerStateMachine","folderPath":"folders/Scripts/Player/PlayerStateMachine.yy","order":0,},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -33,6 +34,7 @@
     "IDEVersion": "2023.1.0.58",
   },
   "resources": [
+    {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":0,},
     {"id":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},"order":0,},
     {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},"order":0,},
     {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},"order":0,},
@@ -40,6 +42,7 @@
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":0,},
     {"id":{"name":"PlayerOnGround","path":"scripts/PlayerOnGround/PlayerOnGround.yy",},"order":0,},
     {"id":{"name":"PlayerCalcMovement","path":"scripts/PlayerCalcMovement/PlayerCalcMovement.yy",},"order":0,},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":0,},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":0,},
     {"id":{"name":"PlayerStateJump","path":"scripts/PlayerStateJump/PlayerStateJump.yy",},"order":0,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":0,},

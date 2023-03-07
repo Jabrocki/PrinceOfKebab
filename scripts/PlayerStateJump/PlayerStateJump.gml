@@ -1,5 +1,4 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+///@desc State for players jump
 function PlayerStateJump(){
 	sprite_index = sPlayerJump;
 	//Animation change
@@ -12,10 +11,10 @@ function PlayerStateJump(){
 		// Checks if we jumped to high
 		if(jumpToGo<abs(jumpSpeed)) vSpeed = jumpToGo; else vSpeed = jumpSpeed;
 		
+		
 		if(jumpToGo <= 0)
 		{
 			image_speed = 1;
-			image_index = 0;
 			playerState = PlayerStateFall;
 		}
 	}

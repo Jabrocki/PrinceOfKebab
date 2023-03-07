@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "PlayerStateJump",
+  "name": "ScreenShake",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "PlayerStateMachine",
-    "path": "folders/Scripts/Player/PlayerStateMachine.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }

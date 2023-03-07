@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerCalcMovement(){
 	hSpeed += (keyRight - keyLeft) * runSpeed;
-	if(playerState != PlayerStateJump) vSpeed += global.grav;
+	vSpeed += global.grav;
 	
 	if(hSpeed != 0) image_xscale = sign(hSpeed);
 
