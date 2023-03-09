@@ -4,7 +4,11 @@ function PlayerCalcMovement(){
 	hSpeed += (keyRight - keyLeft) * runSpeed;
 	vSpeed += global.grav;
 	
-	if(hSpeed != 0) image_xscale = sign(hSpeed);
+	if(hSpeed != 0) 
+	{
+		image_xscale = sign(hSpeed);
+		if(hSpeed > 0) direction = 0; else direction = 180;
+	}
 
 	//drag
 	hSpeed = lerp(hSpeed, 0, drag);

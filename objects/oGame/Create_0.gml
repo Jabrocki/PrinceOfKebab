@@ -5,7 +5,8 @@ global.grav = 0.3;
 
 global.iCamera = instance_create_layer(0,0,layer,oCamera);
 
-
+//Variable to check what object is lifted
+global.iLifted = -1;
 
 //Checks if game is paused
 global.gamePaused = false;
