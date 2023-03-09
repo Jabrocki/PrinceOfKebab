@@ -4,3 +4,8 @@ global.tileSize = 16;
 global.grav = 0.3;
 
 global.iCamera = instance_create_layer(0,0,layer,oCamera);
+
+
+
+//Checks if game is paused
+global.gamePaused = false;
