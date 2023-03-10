@@ -6,4 +6,15 @@ function MACROS(){
 
 	//camera
 	#macro UD -1 //undefined
+	
+	enum ENEMYSTATE
+	{
+		IDLE,
+		WANDER,
+		CHASE,
+		ATTACK,
+		HURT,
+		DIE,
+		WAIT
+	}
 }
