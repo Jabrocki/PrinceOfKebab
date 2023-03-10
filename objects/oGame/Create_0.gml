@@ -1,3 +1,4 @@
+randomize();
 /// @desc global varibles + manager variables
 global.tileCollisionMap = layer_tilemap_get_id("Collision");
 global.tileSize = 16;
@@ -10,3 +11,4 @@ global.iLifted = -1;
 
 //Checks if game is paused
 global.gamePaused = false;
+
