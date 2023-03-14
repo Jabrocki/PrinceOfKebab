@@ -23,5 +23,4 @@ function SkeletonStateJump(){
 		image_speed = 1;
 		state = ENEMYSTATE.FALL;
 	}
-	show_debug_message(vSpeed);
 }

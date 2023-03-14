@@ -37,7 +37,6 @@ function SkeletonStateChase(){
 			previousState = state;
 			state = ENEMYSTATE.JUMP;
 		}
-		show_debug_message(EntityCollideHorizontaly())
 		//Check if we should change state
 		if(++aggroCheck >= aggroCheckDuration)
 		{

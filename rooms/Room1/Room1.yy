@@ -10,7 +10,6 @@
     {"name":"inst_26900216","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_21A560FF","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_D252C67","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_28CA3960","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -18,11 +17,11 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21A560FF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oGame","path":"objects/oGame/oGame.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26900216","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D252C67","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oSkeleton","path":"objects/oSkeleton/oSkeleton.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":288.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28CA3960","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oSkeleton","path":"objects/oSkeleton/oSkeleton.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":96.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Collision","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":23,"SerialiseWidth":40,"TileCompressedData":[
--213,-2147483648,1,0,-3,-2147483648,1,0,-102,-2147483648,-3,0,-10,-2147483648,-5,2,-22,-2147483648,-3,1,-15,-2147483648,-2,1,-25,-2147483648,-4,1,-84,-2147483648,-5,1,-72,-2147483648,2,0,1,-72,-2147483648,-5,
-1,1,0,-38,-2147483648,2,1,0,-38,-2147483648,-4,0,-28,-2147483648,-40,1,-53,-2147483648,1,0,-66,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+-213,-2147483648,1,1,-3,-2147483648,1,1,-35,-2147483648,1,0,-3,-2147483648,1,0,-62,-2147483648,-3,0,-10,-2147483648,-5,2,-22,-2147483648,-3,1,-15,-2147483648,-2,1,-25,-2147483648,-4,1,-84,-2147483648,-5,1,
+-72,-2147483648,2,0,1,-48,-2147483648,4,0,-2147483648,-2147483648,0,-20,-2147483648,-5,1,1,0,-9,-2147483648,5,1,0,-2147483648,0,0,-24,-2147483648,2,1,0,-38,-2147483648,-4,0,-8,-2147483648,4,0,-2147483648,
+-2147483648,1,-16,-2147483648,-40,1,-53,-2147483648,1,0,-66,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Desert","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":23,"SerialiseWidth":40,"TileCompressedData":[
 -333,-2147483648,-5,45,-22,-2147483648,3,40,41,42,-15,-2147483648,2,40,42,-25,-2147483648,4,40,41,41,42,-84,-2147483648,1,40,-3,41,1,42,-146,-2147483648,1,40,-3,41,1,42,-103,-2147483648,
 -3,0,-5,-2147483648,-40,2,-120,5,],"TileDataFormat":1,},"tilesetId":{"name":"tDesert","path":"tilesets/tDesert/tDesert.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},

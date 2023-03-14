@@ -22,10 +22,7 @@ function PlayerCollision(){
     var t2 = tilemap_get_at_pixel(global.tileCollisionMap, _bbox_side + hSpeed, bbox_bottom);
     var t3 = tilemap_get_at_pixel(global.tileCollisionMap, _bbox_side + hSpeed, (bbox_bottom + bbox_top)/2);
      
-    if	(((t1 != VOID) and (t1 != PLATFORM)) or
-    	((t2 != VOID) and (t2 != PLATFORM)) or
-    	((t3 != VOID) and (t3 != PLATFORM))) and 
-    	(t1 != UD and t2 != UD and t3 != UD) {
+	if	((t1 == SOLID) or (t2 == SOLID) or (t3 == SOLID)){
     	//collision found
     	if (hSpeed > 0) x = x - (x mod global.tileSize) + global.tileSize - 1 - (_bbox_side - x);
     	else x = x - (x mod global.tileSize) - (_bbox_side - x);
@@ -38,6 +35,7 @@ function PlayerCollision(){
     	x = (x - bbox_left);
     	hSpeed = 0;
     } else if bbox_right >= room_width {
+		// If x mod 2 = 1 we got an extra pixel
 		if (x mod 2 = 0) x = room_width - (bbox_right - x) else  x = room_width - (bbox_right - x) - 1;
     	hSpeed = 0;
     }
