@@ -9,9 +9,9 @@ hSpeed = 0;
 vSpeed = 0;
 xTo = xstart;
 yTo = ystart;
-localFrame = 0;
-animationEnd = true;
-dir = 0;
+
+
+
 aggroCheck = 0;
 aggroCheckDuration = 5;
 
@@ -21,8 +21,8 @@ timePassed= 0;
 waitDuration = 60;
 wait = 0;
 
-image_speed = 0;
-
+//Target
+target = -1;
 
 //Enemy Scripts
 enemyScript[ENEMYSTATE.IDLE] = -1;
@@ -32,3 +32,12 @@ enemyScript[ENEMYSTATE.ATTACK] = -1;
 enemyScript[ENEMYSTATE.HURT] = -1;
 enemyScript[ENEMYSTATE.DIE] = -1;
 enemyScript[ENEMYSTATE.WAIT] = -1;
+enemyScript[ENEMYSTATE.FALL] = -1
+
+//Which turn we should take;
+turn = true;
+//Jump
+jumpSpeed = -5;
+jumpToGo = 0;
+//Check if on the player
+onThePlayer = false;

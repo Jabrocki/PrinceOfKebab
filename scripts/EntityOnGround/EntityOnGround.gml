@@ -19,16 +19,9 @@ function EntityOnGround(){
     	return true else {
     		//no collision, so check if we are moving down to a platform while we are already on a platform
     	if ((t1 == PLATFORM and t3 == PLATFORM) or (t2 == PLATFORM and t4 == PLATFORM) or (t5 == PLATFORM and t6 == PLATFORM))
-    	and vSpeed>0 {
-    			//get tiles cell y position
-    			var t1y = tilemap_get_cell_y_at_pixel(global.tileCollisionMap, bbox_left, _bbox_side + 1);
-    			var t2y = tilemap_get_cell_y_at_pixel(global.tileCollisionMap, bbox_right, _bbox_side + 1);
-    			var t3y = tilemap_get_cell_y_at_pixel(global.tileCollisionMap, bbox_left, bbox_bottom);
-    			var t4y = tilemap_get_cell_y_at_pixel(global.tileCollisionMap, bbox_right, bbox_bottom);
-    			var t5y = tilemap_get_cell_y_at_pixel(global.tileCollisionMap, (bbox_left + bbox_right)/2, _bbox_side + 1);
-    			var t6y = tilemap_get_cell_y_at_pixel(global.tileCollisionMap, (bbox_left + bbox_right)/2, bbox_bottom);			
+    	and vSpeed>0 {		
     			//if these do no match, we are moving down to a new tile
-    			if t1y != t3y or t2y != t4y or t5y != t6y {
+    			if t1 != t3 or t2 != t4 or t5 != t6 {
     				//collision found
     				return true;
     			}

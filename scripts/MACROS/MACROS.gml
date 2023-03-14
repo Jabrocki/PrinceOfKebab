@@ -15,6 +15,8 @@ function MACROS(){
 		ATTACK,
 		HURT,
 		DIE,
-		WAIT
+		WAIT,
+		FALL,
+		JUMP
 	}
 }

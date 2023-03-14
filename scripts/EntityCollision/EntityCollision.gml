@@ -1,9 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function EntityCollision(){
-    /// collision();
-    if hSpeed == 0 hSpeedDecimal = 0;
-    if vSpeed == 0 hSpeedDecimal = 0;
     //apply carried over decimals
     hSpeed += hSpeedDecimal;
     vSpeed += vSpeedDecimal;

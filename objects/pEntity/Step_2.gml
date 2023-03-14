@@ -22,11 +22,10 @@ if(!global.gamePaused)
 		}
 		else
 		{
-			if(EntityOnGround())
-			{
-				EntityCalcMovement();
-				EntityCollision();
-			}
+			
 		}
 	}
+	vSpeed += global.grav;
+	if(hSpeed != 0) image_xscale = sign(hSpeed);
+	EntityCollision();
 }

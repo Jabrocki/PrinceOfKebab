@@ -6,7 +6,7 @@ function PlayerStateFall(){
 	if(_player_on_ground)
 	{
 		image_speed=1;
-		if (round(image_index) == sprite_get_number(sprite_index)-1)
+		if (round(image_index) == sprite_get_number(sprite_index))
 		{
 			playerState=PlayerStateFree;
 		}

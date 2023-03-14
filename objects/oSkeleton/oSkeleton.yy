@@ -6,7 +6,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},"propertyId":{"name":"enemyAttackRadius","path":"objects/pEnemy/pEnemy.yy",},"value":"48",},
+  ],
   "parent": {
     "name": "Enemies",
     "path": "folders/Objects/Enemies.yy",
