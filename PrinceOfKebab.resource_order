@@ -18,6 +18,7 @@
     {"name":"PlayerStateMachine","order":6,"path":"folders/Scripts/Player/PlayerStateMachine.yy",},
     {"name":"Entity","order":10,"path":"folders/Scripts/Entity.yy",},
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"name":"BackGround","order":7,"path":"folders/Sprites/BackGround.yy",},
     {"name":"Parents","order":5,"path":"folders/Objects/Parents.yy",},
     {"name":"Managers","order":6,"path":"folders/Objects/Managers.yy",},
@@ -27,6 +28,8 @@
     {"name":"Enemies","order":11,"path":"folders/Scripts/Enemies.yy",},
     {"name":"Skeleton","order":1,"path":"folders/Scripts/Enemies/Skeleton.yy",},
     {"name":"Shielder","order":2,"path":"folders/Sprites/Enemy/Shielder.yy",},
+=======
+>>>>>>> parent of 9ad5155 (Podstawowy Atak)
 =======
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
   ],
@@ -39,6 +42,7 @@
     {"name":"sPlayerJump","order":3,"path":"sprites/sPlayerJump/sPlayerJump.yy",},
     {"name":"PlayerMainStateMachine","order":3,"path":"scripts/PlayerMainStateMachine/PlayerMainStateMachine.yy",},
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"name":"sSkeletonAttack1","order":2,"path":"sprites/sSkeletonAttack1/sSkeletonAttack1.yy",},
     {"name":"PlayerStateFree","order":1,"path":"scripts/PlayerStateFree/PlayerStateFree.yy",},
     {"name":"sPlayerLift","order":5,"path":"sprites/sPlayerLift/sPlayerLift.yy",},
@@ -46,6 +50,11 @@
     {"name":"sTilesetDesert","order":6,"path":"sprites/sTilesetDesert/sTilesetDesert.yy",},
     {"name":"sShielderJump","order":2,"path":"sprites/sShielderJump/sShielderJump.yy",},
     {"name":"EntityGonnaCollideHorizontaly","order":3,"path":"scripts/EntityGonnaCollideHorizontaly/EntityGonnaCollideHorizontaly.yy",},
+=======
+    {"name":"PlayerStateFree","order":1,"path":"scripts/PlayerStateFree/PlayerStateFree.yy",},
+    {"name":"sPlayerLift","order":5,"path":"sprites/sPlayerLift/sPlayerLift.yy",},
+    {"name":"MACROS","order":3,"path":"scripts/MACROS/MACROS.yy",},
+>>>>>>> parent of 9ad5155 (Podstawowy Atak)
 =======
     {"name":"PlayerStateFree","order":1,"path":"scripts/PlayerStateFree/PlayerStateFree.yy",},
     {"name":"sPlayerLift","order":5,"path":"sprites/sPlayerLift/sPlayerLift.yy",},
@@ -61,6 +70,9 @@
     {"name":"SkeletonStateFall","order":3,"path":"scripts/SkeletonStateFall/SkeletonStateFall.yy",},
 =======
     {"name":"oCamera","order":2,"path":"objects/oCamera/oCamera.yy",},
+<<<<<<< HEAD
+>>>>>>> parent of 9ad5155 (Podstawowy Atak)
+=======
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
     {"name":"sShielderWalk","order":1,"path":"sprites/sShielderWalk/sShielderWalk.yy",},
@@ -71,9 +83,12 @@
     {"name":"sShielderAttack1","order":4,"path":"sprites/sShielderAttack1/sShielderAttack1.yy",},
     {"name":"sPlayerFall","order":4,"path":"sprites/sPlayerFall/sPlayerFall.yy",},
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"name":"sSkeletonAttack2","order":3,"path":"sprites/sSkeletonAttack2/sSkeletonAttack2.yy",},
     {"name":"SkeletonStateJump","order":4,"path":"scripts/SkeletonStateJump/SkeletonStateJump.yy",},
     {"name":"sSkeletonJump","order":4,"path":"sprites/sSkeletonJump/sSkeletonJump.yy",},
+=======
+>>>>>>> parent of 9ad5155 (Podstawowy Atak)
 =======
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
     {"name":"sCol","order":2,"path":"sprites/sCol/sCol.yy",},
