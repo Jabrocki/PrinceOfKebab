@@ -13,18 +13,26 @@ function PlayerStateFree(){
 	}
 	else sprite_index =sPlayerIdle;
 
+	//Check if on the ground
+	var _on_the_ground = PlayerOnGround();
+	
 	//Jump
-	if(vSpeed == 0 and keyUp)
+	if(_on_the_ground and keyUp)
 	{
 		jumpToGo = jumpHeight;
 		playerState = PlayerStateJump;
 	}
-	//Check if on the ground
-	var _on_the_ground = PlayerOnGround();
 	if(!_on_the_ground)
 	{
 		playerState = PlayerStateFall;
-	}	
+	}
+	
+	//Attack
+	if (_on_the_ground) && (keyAttack)
+	{
+		playerState = PlayerStateAttack;
+	}
+	
 	//Player collision check + Player calculate movement
 	PlayerCalcMovement();
 	PlayerCollision();

@@ -11,6 +11,9 @@ jumpSpeed = -5;
 jumpHeight = 5 * 16;
 jumpToGo = 0;
 
+//Attack
+ObjHit = ds_list_create();
+
 // Friction
 drag = .12
 //Wchich side palyer is facing
