@@ -6,7 +6,7 @@ function SkeletonStateWander(){
 	if (x == xTo or timePassed++ > enemyWanderDistance / enemySpeed)
 	{
 		hSpeed = 0;
-		sprite_index = sSkeletonIdle;
+		sprite_index = spriteIdle;
 		//Set new target destination
 		if (++wait >= waitDuration)
 		{
@@ -19,7 +19,7 @@ function SkeletonStateWander(){
 	}
 	else //Move towards new destination
 	{
-		sprite_index = sSkeletonWalk;
+		sprite_index = spriteWalk;
 
 		var _distanceToGo = abs(xTo-x);
 		var _speedThisFrame = enemySpeed;

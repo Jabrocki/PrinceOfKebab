@@ -34,6 +34,14 @@ enemyScript[ENEMYSTATE.DIE] = -1;
 enemyScript[ENEMYSTATE.WAIT] = -1;
 enemyScript[ENEMYSTATE.FALL] = -1
 
+//Enemy sprites
+spriteIdle = -1;
+spriteWalk = -1;
+spriteJump = -1;
+spriteFall = -1;
+spriteAttack1 = -1;
+spriteAttack2 = -1;
+
 //Which turn we should take;
 turn = true;
 //Jump

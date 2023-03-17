@@ -17,13 +17,13 @@ function SkeletonStateChase(){
 		if(floor(_distanceToGoX)>2)
 		{
 			if(xTo-x>0) hSpeed = _speedThisFrame; else hSpeed = -_speedThisFrame;
-			sprite_index = sSkeletonWalk;
+			sprite_index = spriteWalk;
 			onThePlayer = false;
 		}
 		else 
 		{
 			hSpeed = 0;
-			sprite_index = sSkeletonIdle;
+			sprite_index = spriteIdle;
 			onThePlayer = true;
 		}
 		//Check if we should jump
@@ -48,13 +48,13 @@ function SkeletonStateChase(){
 				switch _type
 				{
 					case 0:
-						spriteAttack = sSkeletonAttack1;
+						spriteAttack = spriteAttack1;
 						break;
 					case 1:
-						spriteAttack = sSkeletonAttack2;
+						spriteAttack = spriteAttack2;
 						break;
 					default:
-						spriteAttack = sSkeletonAttack1;
+						spriteAttack = spriteAttack1;
 				}
 				
 				image_index = 0;
@@ -68,5 +68,12 @@ function SkeletonStateChase(){
 	{
 		previousState = state;
 		state = ENEMYSTATE.FALL;
+	}
+	if(instance_exists(oPlayer))
+	{
+	if(point_distance(x,y,oPlayer.x,oPlayer.y) >= global.tileSize*12)
+	{
+		state = ENEMYSTATE.WANDER;
+	}
 	}
 }

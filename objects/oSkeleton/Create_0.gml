@@ -16,3 +16,10 @@ enemyScript[ENEMYSTATE.JUMP] = SkeletonStateJump;
 //enemyScript[ENEMYSTATE.HURT] = ZombieStateHurt;
 //enemyScript[ENEMYSTATE.DIE] = ZombieStateDie;
 
+//Enemy sprites
+spriteIdle = sSkeletonIdle;
+spriteWalk = sSkeletonWalk;
+spriteFall = sSkeletonFall;
+spriteJump = sSkeletonJump;
+spriteAttack1 = sSkeletonAttack1;
+spriteAttack2 = sSkeletonAttack2;

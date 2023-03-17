@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function SkeletonStateJump(){
-	sprite_index = sSkeletonJump;
+	sprite_index = spriteJump;
 	//Horizontal speed calc
 	var _distanceToGoX = abs(xTo-x);
 	var _speedThisFrame = enemySpeed;
@@ -16,7 +16,7 @@ function SkeletonStateJump(){
 	if(round(image_index) == sprite_get_number(sprite_index)-1)
 	{
 		image_speed = 0;
-		image_index = 3;
+		image_index = sprite_get_number(sprite_index);
 	}
 	if(jumpToGo <= 0)
 	{

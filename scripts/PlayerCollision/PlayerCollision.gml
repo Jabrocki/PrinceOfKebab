@@ -13,21 +13,24 @@ function PlayerCollision(){
     vSpeed -= vSpeedDecimal;
      
     //horizontal collision
-    var _bbox_side;
     //determine which side to test
-    if hSpeed > 0 _bbox_side = bbox_right else _bbox_side = bbox_left;
+    if hSpeed > 0 var _bbox_side = bbox_right else var _bbox_side = bbox_left;
      
     //check top and bottom of side
-    var t1 = tilemap_get_at_pixel(global.tileCollisionMap, _bbox_side + hSpeed, bbox_top);
-    var t2 = tilemap_get_at_pixel(global.tileCollisionMap, _bbox_side + hSpeed, bbox_bottom);
-    var t3 = tilemap_get_at_pixel(global.tileCollisionMap, _bbox_side + hSpeed, (bbox_bottom + bbox_top)/2);
-     
-	if	((t1 == SOLID) or (t2 == SOLID) or (t3 == SOLID)){
-    	//collision found
-    	if (hSpeed > 0) x = x - (x mod global.tileSize) + global.tileSize - 1 - (_bbox_side - x);
-    	else x = x - (x mod global.tileSize) - (_bbox_side - x);
-    	hSpeed = 0;	
-    }
+	var _playerHeight = bbox_bottom - bbox_top;
+	var _playerHeightCardinal = round(_playerHeight/global.tileSize);
+	
+	for (i = 0; i<_playerHeightCardinal; i++)
+	{
+		var _test = tilemap_get_at_pixel(global.tileCollisionMap, _bbox_side + hSpeed, bbox_bottom - global.tileSize*i)
+		if (_test == SOLID)
+		{
+		    if (hSpeed > 0) x = x - (x mod global.tileSize) + global.tileSize - 1 - (_bbox_side - x);
+    		else x = x - (x mod global.tileSize) - (_bbox_side - x);
+    		hSpeed = 0;
+		}
+	}
+
     x += hSpeed;
      
     //clamp the movement at the left and right sides of the screen
@@ -35,8 +38,7 @@ function PlayerCollision(){
     	x = (x - bbox_left);
     	hSpeed = 0;
     } else if bbox_right >= room_width {
-		// If x mod 2 = 1 we got an extra pixel
-		if (x mod 2 = 0) x = room_width - (bbox_right - x) else  x = room_width - (bbox_right - x) - 1;
+		if (x mod 2 = 0) x = room_width - (bbox_right - x); else  x = room_width - (bbox_right - x) - 1;
     	hSpeed = 0;
     }
      
@@ -68,16 +70,15 @@ function PlayerCollision(){
     	//no collision, so check if we are moving down to a platform while we are already on a platform
     	if ((t1 == PLATFORM and t3 == PLATFORM) or (t2 == PLATFORM and t4 == PLATFORM) or (t5 == PLATFORM and t6 == PLATFORM))
     	and vSpeed > 0 {
+
     		
     		//if these do no match, we are moving down to a new tile
     		if t1 != t3 or t2 != t4 or t5 != t6 {
     			//collision found, move to the top of the platform tile
-    			if (vSpeed > 0) {
-    				y = (_bbox_side div global.tileSize) * global.tileSize + global.tileSize - 1 - (_bbox_side - y);				
-    			} else {
-    				y = (_bbox_side div global.tileSize) * global.tileSize + (y - _bbox_side);				
-    			}
-    			vSpeed = 0;
+    			if (vSpeed > 0) y = (_bbox_side div global.tileSize) * global.tileSize + global.tileSize - 1 - (_bbox_side - y);
+				else y = (_bbox_side div global.tileSize) * global.tileSize + (y - _bbox_side);
+    			
+				vSpeed = 0;
     		}
     	}
     }

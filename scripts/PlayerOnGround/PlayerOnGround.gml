@@ -10,7 +10,7 @@ function PlayerOnGround(){
     var t3 = tilemap_get_at_pixel(global.tileCollisionMap, bbox_left, _bbox_side);
     var t4 = tilemap_get_at_pixel(global.tileCollisionMap, bbox_right, _bbox_side);
     var t5 = tilemap_get_at_pixel(global.tileCollisionMap, (bbox_right + bbox_left)/2, _bbox_side + 1);
-    var t6 = tilemap_get_at_pixel(global.tileCollisionMap, (bbox_right + bbox_left)/2,_bbox_side);
+    var t6 = tilemap_get_at_pixel(global.tileCollisionMap, (bbox_right + bbox_left)/2, _bbox_side);
      
      
     if	((t1 == SOLID or t1 == PLATFORM) and (t3 != SOLID and t3 != PLATFORM) or (t1 == SOLID and t3 == PLATFORM) or
