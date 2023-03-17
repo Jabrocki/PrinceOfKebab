@@ -28,6 +28,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Scripts/Player.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PlayerStateMachine","folderPath":"folders/Scripts/Player/PlayerStateMachine.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Entity","folderPath":"folders/Scripts/Entity.yy","order":0,},
+<<<<<<< HEAD
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"BackGround","folderPath":"folders/Sprites/BackGround.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Parents","folderPath":"folders/Objects/Parents.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Managers","folderPath":"folders/Objects/Managers.yy","order":0,},
@@ -37,6 +38,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemies","folderPath":"folders/Scripts/Enemies.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Skeleton","folderPath":"folders/Scripts/Enemies/Skeleton.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shielder","folderPath":"folders/Sprites/Enemy/Shielder.yy","order":0,},
+=======
+>>>>>>> parent of 9ad5155 (Podstawowy Atak)
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -44,6 +47,7 @@
     "IDEVersion": "2023.1.0.58",
   },
   "resources": [
+<<<<<<< HEAD
     {"id":{"name":"SkeletonStateWander","path":"scripts/SkeletonStateWander/SkeletonStateWander.yy",},"order":0,},
     {"id":{"name":"sShielderAttack2","path":"sprites/sShielderAttack2/sShielderAttack2.yy",},"order":0,},
     {"id":{"name":"EntityOnGround","path":"scripts/EntityOnGround/EntityOnGround.yy",},"order":0,},
@@ -93,6 +97,30 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sBackgroundRuins","path":"sprites/sBackgroundRuins/sBackgroundRuins.yy",},"order":0,},
     {"id":{"name":"SkeletonStateChase","path":"scripts/SkeletonStateChase/SkeletonStateChase.yy",},"order":0,},
+=======
+    {"id":{"name":"EntityOnGround","path":"scripts/EntityOnGround/EntityOnGround.yy",},"order":0,},
+    {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":0,},
+    {"id":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},"order":0,},
+    {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},"order":0,},
+    {"id":{"name":"PlayerMainStateMachine","path":"scripts/PlayerMainStateMachine/PlayerMainStateMachine.yy",},"order":0,},
+    {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},"order":0,},
+    {"id":{"name":"sPlayerLift","path":"sprites/sPlayerLift/sPlayerLift.yy",},"order":0,},
+    {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
+    {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":0,},
+    {"id":{"name":"PlayerOnGround","path":"scripts/PlayerOnGround/PlayerOnGround.yy",},"order":0,},
+    {"id":{"name":"EntityCalcMovement","path":"scripts/EntityCalcMovement/EntityCalcMovement.yy",},"order":0,},
+    {"id":{"name":"PlayerCalcMovement","path":"scripts/PlayerCalcMovement/PlayerCalcMovement.yy",},"order":0,},
+    {"id":{"name":"EntityCollision","path":"scripts/EntityCollision/EntityCollision.yy",},"order":0,},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":0,},
+    {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":0,},
+    {"id":{"name":"PlayerStateJump","path":"scripts/PlayerStateJump/PlayerStateJump.yy",},"order":0,},
+    {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":0,},
+    {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},"order":0,},
+    {"id":{"name":"sPlayerFall","path":"sprites/sPlayerFall/sPlayerFall.yy",},"order":0,},
+    {"id":{"name":"PlayerStateFall","path":"scripts/PlayerStateFall/PlayerStateFall.yy",},"order":0,},
+    {"id":{"name":"sCol","path":"sprites/sCol/sCol.yy",},"order":0,},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+>>>>>>> parent of 9ad5155 (Podstawowy Atak)
     {"id":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
