@@ -7,6 +7,7 @@ if(!global.gamePaused)
 	keyRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
 	keyUp = keyboard_check(vk_up) or keyboard_check(ord("W"));
 	keyActivate = mouse_check_button_pressed(vk_right);
+	keyAttack = keyboard_check_pressed(ord("Z"));
 
 	//Player state machine
 	script_execute(playerState);
