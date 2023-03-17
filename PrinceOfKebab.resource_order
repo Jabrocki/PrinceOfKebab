@@ -19,6 +19,9 @@
     {"name":"Entity","order":10,"path":"folders/Scripts/Entity.yy",},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 85dfe7f (test)
     {"name":"BackGround","order":7,"path":"folders/Sprites/BackGround.yy",},
     {"name":"Parents","order":5,"path":"folders/Objects/Parents.yy",},
     {"name":"Managers","order":6,"path":"folders/Objects/Managers.yy",},
@@ -28,10 +31,13 @@
     {"name":"Enemies","order":11,"path":"folders/Scripts/Enemies.yy",},
     {"name":"Skeleton","order":1,"path":"folders/Scripts/Enemies/Skeleton.yy",},
     {"name":"Shielder","order":2,"path":"folders/Sprites/Enemy/Shielder.yy",},
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
 =======
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
+=======
+>>>>>>> parent of 85dfe7f (test)
   ],
   "ResourceOrderSettings": [
     {"name":"sShielderAttack2","order":5,"path":"sprites/sShielderAttack2/sShielderAttack2.yy",},
@@ -43,6 +49,9 @@
     {"name":"PlayerMainStateMachine","order":3,"path":"scripts/PlayerMainStateMachine/PlayerMainStateMachine.yy",},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 85dfe7f (test)
     {"name":"sSkeletonAttack1","order":2,"path":"sprites/sSkeletonAttack1/sSkeletonAttack1.yy",},
     {"name":"PlayerStateFree","order":1,"path":"scripts/PlayerStateFree/PlayerStateFree.yy",},
     {"name":"sPlayerLift","order":5,"path":"sprites/sPlayerLift/sPlayerLift.yy",},
@@ -50,6 +59,7 @@
     {"name":"sTilesetDesert","order":6,"path":"sprites/sTilesetDesert/sTilesetDesert.yy",},
     {"name":"sShielderJump","order":2,"path":"sprites/sShielderJump/sShielderJump.yy",},
     {"name":"EntityGonnaCollideHorizontaly","order":3,"path":"scripts/EntityGonnaCollideHorizontaly/EntityGonnaCollideHorizontaly.yy",},
+<<<<<<< HEAD
 =======
     {"name":"PlayerStateFree","order":1,"path":"scripts/PlayerStateFree/PlayerStateFree.yy",},
     {"name":"sPlayerLift","order":5,"path":"sprites/sPlayerLift/sPlayerLift.yy",},
@@ -60,20 +70,24 @@
     {"name":"sPlayerLift","order":5,"path":"sprites/sPlayerLift/sPlayerLift.yy",},
     {"name":"MACROS","order":3,"path":"scripts/MACROS/MACROS.yy",},
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
+=======
+>>>>>>> parent of 85dfe7f (test)
     {"name":"PlayerOnGround","order":2,"path":"scripts/PlayerOnGround/PlayerOnGround.yy",},
     {"name":"sSkeletonWalk","order":1,"path":"sprites/sSkeletonWalk/sSkeletonWalk.yy",},
     {"name":"tDesert","order":1,"path":"tilesets/tDesert/tDesert.yy",},
     {"name":"sBackgroundMountians","order":2,"path":"sprites/sBackgroundMountians/sBackgroundMountians.yy",},
     {"name":"sShielderBlock","order":6,"path":"sprites/sShielderBlock/sShielderBlock.yy",},
     {"name":"EntityCollision","order":1,"path":"scripts/EntityCollision/EntityCollision.yy",},
-<<<<<<< HEAD
     {"name":"SkeletonStateFall","order":3,"path":"scripts/SkeletonStateFall/SkeletonStateFall.yy",},
+<<<<<<< HEAD
 =======
     {"name":"oCamera","order":2,"path":"objects/oCamera/oCamera.yy",},
 <<<<<<< HEAD
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
 =======
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
+=======
+>>>>>>> parent of 85dfe7f (test)
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
     {"name":"sShielderWalk","order":1,"path":"sprites/sShielderWalk/sShielderWalk.yy",},
     {"name":"PlayerStateJump","order":2,"path":"scripts/PlayerStateJump/PlayerStateJump.yy",},
@@ -84,6 +98,7 @@
     {"name":"sPlayerFall","order":4,"path":"sprites/sPlayerFall/sPlayerFall.yy",},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"name":"sSkeletonAttack2","order":3,"path":"sprites/sSkeletonAttack2/sSkeletonAttack2.yy",},
     {"name":"SkeletonStateJump","order":4,"path":"scripts/SkeletonStateJump/SkeletonStateJump.yy",},
     {"name":"sSkeletonJump","order":4,"path":"sprites/sSkeletonJump/sSkeletonJump.yy",},
@@ -91,6 +106,11 @@
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
 =======
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
+=======
+    {"name":"sSkeletonAttack2","order":3,"path":"sprites/sSkeletonAttack2/sSkeletonAttack2.yy",},
+    {"name":"SkeletonStateJump","order":4,"path":"scripts/SkeletonStateJump/SkeletonStateJump.yy",},
+    {"name":"sSkeletonJump","order":4,"path":"sprites/sSkeletonJump/sSkeletonJump.yy",},
+>>>>>>> parent of 85dfe7f (test)
     {"name":"sCol","order":2,"path":"sprites/sCol/sCol.yy",},
     {"name":"sSkeletonFall","order":5,"path":"sprites/sSkeletonFall/sSkeletonFall.yy",},
     {"name":"sBackgroundRuins","order":3,"path":"sprites/sBackgroundRuins/sBackgroundRuins.yy",},

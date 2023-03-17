@@ -30,6 +30,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Entity","folderPath":"folders/Scripts/Entity.yy","order":0,},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 85dfe7f (test)
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"BackGround","folderPath":"folders/Sprites/BackGround.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Parents","folderPath":"folders/Objects/Parents.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Managers","folderPath":"folders/Objects/Managers.yy","order":0,},
@@ -39,10 +42,13 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemies","folderPath":"folders/Scripts/Enemies.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Skeleton","folderPath":"folders/Scripts/Enemies/Skeleton.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shielder","folderPath":"folders/Sprites/Enemy/Shielder.yy","order":0,},
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
 =======
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
+=======
+>>>>>>> parent of 85dfe7f (test)
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -52,6 +58,9 @@
   "resources": [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 85dfe7f (test)
     {"id":{"name":"SkeletonStateWander","path":"scripts/SkeletonStateWander/SkeletonStateWander.yy",},"order":0,},
     {"id":{"name":"sShielderAttack2","path":"sprites/sShielderAttack2/sShielderAttack2.yy",},"order":0,},
     {"id":{"name":"EntityOnGround","path":"scripts/EntityOnGround/EntityOnGround.yy",},"order":0,},
@@ -101,6 +110,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sBackgroundRuins","path":"sprites/sBackgroundRuins/sBackgroundRuins.yy",},"order":0,},
     {"id":{"name":"SkeletonStateChase","path":"scripts/SkeletonStateChase/SkeletonStateChase.yy",},"order":0,},
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
@@ -130,6 +140,8 @@
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
 =======
 >>>>>>> parent of 9ad5155 (Podstawowy Atak)
+=======
+>>>>>>> parent of 85dfe7f (test)
     {"id":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
